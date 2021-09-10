@@ -1,0 +1,169 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body{
+    font-size: 22px;
+    background-color: #021371;
+    color: white;
+    font-family: 'Aldhabi', serif;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header {
+    background-color: #322d7a;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+//.actor-img{
+//    width: 50px;
+//    height: 100px;
+//}
+.player-box{
+    position: relative;
+}
+svg{
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+svg:hover{
+    transform: scale(2);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-3{
+    width: 33.333%;
+    padding: 0 15px;
+}
+
+.movie-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description{
+    margin: 0 20px;
+
+}
+
+
+.button{
+    margin: 20px 8px;
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,15,183,1) 6%, rgba(132,100,217,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+.input{
+    width: 450px;
+    border-radius: 30px;
+    font-size: 14px;
+    height: 40px;
+    color: lightgoldenrodyellow;
+    background-color: #5991b1;
+}
+.search{
+    background-color: #1e1f34;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 80px;
+}
+.btn{
+    width: 80px;
+    border-radius: 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,15,183,1) 6%, rgba(132,100,217,1) 49%, rgba(0,212,255,1) 100%);
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+img{
+    width: 200px !important;
+    height: 300px;
+    border-radius: 10px;
+}
+.movie-img{
+  border-radius: 100%;
+}
+.space{
+    margin-top: 20px;
+    background: #040544;
+}
+.actors-img{
+    width: 200px;
+    height: 300px;
+}
+.date-time{
+    border-bottom: 4px solid white;
+    width: 400px;
+}
+.actors{
+    background-color: #8860f4;
+}
+h1{
+    margin: 20px;
+}
+.actors-title{
+    margin: 50px;
+    text-align: left;
+}
+.personal-info{
+    margin: 30px;
+}
+.info-title{
+    margin: 20px;
+}
+.form{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-info-title{
+    color: #50a88e;
+
+}
+.info-box {
+    width: 850px;
+    background: #414253;
+    padding: 30px 20px;
+    border-radius: 20px;
+    height: 400px;
+    font-size: 18px;
+}
+.movie-box{
+   margin: 10px 20px;
+}
+.budget {
+    margin-top: 20px;
+}
+.biography-box{
+
+}
+
+.acting-year{
+    margin: 10px 20px 0 0;
+}
+.date-list{
+    border: 2px solid gray;
+    padding: 20px;
+    background-color: #35527c;
+}
