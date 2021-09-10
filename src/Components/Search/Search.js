@@ -17,7 +17,7 @@ const Search = () => {
                 setSearch(data)
                 setLoading(false)})
         console.log(search)
-    }, [findPage, find])
+    }, [findPage, find, search])
     const handleSearch = (e) => {
         setFind(e.target.value)
 
@@ -27,10 +27,6 @@ const Search = () => {
         setFind('')
 
     }
-    // const clear = () => {
-    //     setFind('')
-    // }
-
     if (isLoading) {
         return <h2>Loading....</h2>
     }

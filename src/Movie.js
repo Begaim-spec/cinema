@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios'
 import {Link } from 'react-router-dom'
 import {useHistory} from "react-router-dom";
-import  img_2 from './images/img_2.png'
 
 
 
@@ -26,7 +25,7 @@ const Movie = () => {
     const findMovie = () => {
         history.push(`search/${find}`)
     }
-
+    findMovie()
     return (
         <div>
             <div className="header d-flex justify-content-between">
